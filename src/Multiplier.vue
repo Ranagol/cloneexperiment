@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>(Multiplier.vue)</h3>
-    <clone></clone>
+    <clone v-for="n in 3"></clone>
 
     
   </div>
