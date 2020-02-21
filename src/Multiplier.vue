@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <h3>(Multiplier.vue)</h3>
+    <clone></clone>
+
+    
+  </div>
+</template>
+
+<script>
+ import Clone from './Clone.vue';
+
+ export default {
+   components: {
+     'clone': Clone,
+   }
+ }
+
+</script>
+
+<style>
+</style>
